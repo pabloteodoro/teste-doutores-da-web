@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Teste prático de Front-end - Desenvolvimento de interface responsiva de alta fidelidade com imagens reais.">
+    <title>Teste Front-end</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <span>11 98169-3226 &nbsp; 11 98169-3226</span>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="#">
+                    <img src="logo.png" alt="Logo Empresa Doutores Web">
+                </a>
+            </div>
+            <nav class="main-nav" aria-label="Navegação Principal">
+                <ul class="nav-list">
+                    <li><a href="#">HOME</a></li>
+                    <li class="has-submenu">
+                        <a href="#">EMPRESA</a>
+                        <ul class="submenu submenu-1">
+                            <li><a href="#">SUBMENU 1</a></li>
+                            <li><a href="#">SUBMENU 1</a></li>
+                            <li class="has-submenu-right">
+                                <a href="#">SUBMENU 1</a>
+                                <ul class="submenu submenu-2">
+                                    <li><a href="#">SUBMENU 2</a></li>
+                                    <li><a href="#">SUBMENU 2</a></li>
+                                    <li><a href="#">SUBMENU 2</a></li>
+                                    <li><a href="#">SUBMENU 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">SUBMENU 1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">CLIENTES</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="slider-section" aria-label="Banner Principal">
+            <div class="splide" id="main-slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="https://picsum.photos/1920/600?random=1" alt="Banner promocional 1">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="https://picsum.photos/1920/600?random=2" alt="Banner promocional 2">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section container" aria-label="Informações do Teste">
+            <article class="info-content">
+                <h1>LOREM IPSUM DOLOR SIT</h1>
+                <p class="subtitle">Consectetur adipiscing</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur elit diam.;</li>
+                    <li>Sed do eiusmod tempor incididunt ut labore magna.;</li>
+                    <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco.;</li>
+                </ul>
+                <p class="info-footer-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+                <p class="thanks-text">Lorem ipsum sit amet.</p>
+            </article>
+            <div class="info-image-container">
+                <div class="blue-image-box">
+                    <img src="https://picsum.photos/600/400?random=3" alt="Imagem ilustrativa da seção de texto">
+                </div>
+            </div>
+        </section>
+
+        <section class="boxes-section container" aria-label="Destaques">
+            <h2>BOXES DE DESTAQUE</h2>
+            <div class="boxes-grid">
+                <div class="box-item">
+                    <div class="box-img">
+                        <img src="https://picsum.photos/400/300?random=4" alt="Destaque 1">
+                    </div>
+                    <a href="#" class="box-link">Um texto descritivo com link apenas.</a>
+                </div>
+                <div class="box-item">
+                    <div class="box-img">
+                        <img src="https://picsum.photos/400/300?random=5" alt="Destaque 2">
+                    </div>
+                    <a href="#" class="box-link">Um texto descritivo com link apenas.</a>
+                </div>
+                <div class="box-item">
+                    <div class="box-img">
+                        <img src="https://picsum.photos/400/300?random=6" alt="Destaque 3">
+                    </div>
+                    <a href="#" class="box-link">Um texto descritivo com link apenas.</a>
+                </div>
+                <div class="box-item">
+                    <div class="box-img">
+                        <img src="https://picsum.photos/400/300?random=7" alt="Destaque 4">
+                    </div>
+                    <a href="#" class="box-link">Um texto descritivo com link apenas.</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-top">
+            <ul class="footer-nav-list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">EMPRESA</a></li>
+                <li><a href="#">CLIENTES</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
